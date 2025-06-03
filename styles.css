@@ -5,6 +5,13 @@ html, body {
     overflow: hidden;
   }
 
+.main-content {
+    position: relative;
+    overflow:hidden;
+    height:100%;
+    width:100%;
+}
+
 #three-container {
     position: absolute;
     overflow: hidden;
