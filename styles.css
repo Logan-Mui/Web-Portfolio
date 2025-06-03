@@ -6,7 +6,7 @@ html, body {
   }
 
 #three-container {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
@@ -15,7 +15,7 @@ html, body {
   }
 
 .overlay-content {
-    position: relative;
+    position: absolute;
     z-index: 1;
     color: white;
     text-align: center;
