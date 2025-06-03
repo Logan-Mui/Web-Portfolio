@@ -6,14 +6,12 @@ html, body {
   }
 
 .main-content {
-    position: relative;
     overflow:hidden;
     height:100%;
     width:100%;
 }
 
 #three-container {
-    position: absolute;
     overflow: hidden;
     top: 0;
     left: 0;
@@ -23,7 +21,6 @@ html, body {
   }
 
 .overlay-content {
-    position: absolute;
     z-index: 1;
     color: white;
     text-align: center;
