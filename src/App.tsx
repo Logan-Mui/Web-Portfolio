@@ -1,12 +1,13 @@
 import './App.css'
+import Header from './components/header'
+import Menu from './components/menu'
 
 function App() {
 
   return (
     <>
-      <p>
-        Hello, world!
-      </p>
+      <Menu></Menu>
+      <Header></Header>
     </>
   )
 }
