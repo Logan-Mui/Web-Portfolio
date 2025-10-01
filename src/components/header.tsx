@@ -1,7 +1,9 @@
 import Links from "./links"
 function Home() {
     return (
-    <a href="#splash">LM</a>
+    <div id="Home">
+        <a href="#splash">LM</a>
+    </div>
     )
 }
 
@@ -9,7 +11,7 @@ function Home() {
 function Header() {
 
   return (
-    <div className = 'header'>
+    <div className = 'Header'>
         <Home></Home>
         <Links></Links>
     </div>

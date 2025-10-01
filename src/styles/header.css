@@ -1,0 +1,19 @@
+.Header {
+    display: flex;
+
+    height: 15%;
+    width: 100%;
+
+    background-color: d9d9d9;
+}
+
+.Header #Links {
+    height:100%;
+    width:50%;
+}
+
+.Header #Home {
+    height:100%;
+    width:50%;
+}
+

@@ -4,3 +4,7 @@
   font-style: normal;
 }
 
+:root a{
+  text-decoration: none;
+}
+
