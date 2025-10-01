@@ -1,4 +1,6 @@
+import '../styles/header.css'
 import Links from "./links"
+
 function Home() {
     return (
     <div id="Home">
