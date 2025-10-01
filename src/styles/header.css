@@ -12,6 +12,11 @@
     width:50%;
 }
 
+.Header #Links img{
+    width:100px;
+    height:100px;
+}
+
 .Header #Home {
     height:100%;
     width:50%;
