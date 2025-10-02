@@ -8,8 +8,12 @@
 }
 
 .Header #Links {
-    height:100%;
     width:50%;
+}
+
+.Header #Links img{
+    width:20px;
+    height:20px;
 }
 
 .Header #Home {
