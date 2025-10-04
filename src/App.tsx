@@ -1,5 +1,4 @@
 import Splash from './pages/splash'
-
 function App() {
 
   return (
