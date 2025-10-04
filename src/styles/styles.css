@@ -1,19 +1,15 @@
 body {
   margin: 0;
-}
 
-:root {
   font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: normal;
   overflow-y: hidden;
 }
 
-:root a{
+body a{
   text-decoration: none;
 }
-
-
 
 .Page {
   height:100vh;
