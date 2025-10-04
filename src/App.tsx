@@ -5,8 +5,7 @@ function App() {
 
   return (
     <>
-      <Menu></Menu>
-      <Header></Header>
+      <Splash></Splash>
     </>
   )
 }
