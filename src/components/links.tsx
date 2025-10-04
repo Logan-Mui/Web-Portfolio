@@ -6,13 +6,13 @@ function Links() {
 
   return (
     <div id="Links">
-        <a href="mailto:loganmui19@gmail.com">
+        <a href="mailto:loganmui19@gmail.com" target="_blank">
             <img src={email}></img>
         </a>
-        <a href="https://www.linkedin.com/in/logan-mui/">
+        <a href="https://www.linkedin.com/in/logan-mui/" target="_blank">
             <img src={linkedin}></img>
         </a>
-        <a href="https://github.com/Logan-Mui">
+        <a href="https://github.com/Logan-Mui" target="_blank">
             <img src={github}></img>
         </a>
     </div>

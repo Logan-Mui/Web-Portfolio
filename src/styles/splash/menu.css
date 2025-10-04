@@ -1,4 +1,4 @@
-.SplashMenu {
+.MenuLinks {
     height: 100%;
     width: 50%;
     border-radius: 50% 0% 50% 0%;
@@ -9,4 +9,11 @@
     min-height: 300px;
 
     border-radius: 50%;
+}
+
+.PicOfMe img{
+    border-radius: 50%;
+
+    min-width: 300px;
+    min-height: 300px;
 }

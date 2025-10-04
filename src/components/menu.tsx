@@ -4,8 +4,8 @@ import "../styles/splash/menu.css";
 function Menu() {
 
   return (
-    <>
-      <div className="SplashMenu">
+    <div className="Menu">
+      <div className="MenuLinks">
           <a href="">COMMUNITY</a>
           <a href="">ABOUT ME</a>
           <a href="">WORK/CV</a>
@@ -14,7 +14,7 @@ function Menu() {
       <div className="PicOfMe">
           <img src={pork}></img>
       </div>
-    </>
+    </div>
   )
 }
 
