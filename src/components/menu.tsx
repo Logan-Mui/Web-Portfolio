@@ -1,5 +1,5 @@
 import pork from "../assets/photos/pork.jpg";
-import "../styles/splash/splash.css";
+import "../styles/splash/menu.css";
 
 function Menu() {
 
