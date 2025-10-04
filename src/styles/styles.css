@@ -2,11 +2,15 @@
   font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: normal;
+  height: 100%;
+  width: 100%;
 }
 
 :root a{
   text-decoration: none;
 }
+
+
 
 .Page {
   height:100%;
