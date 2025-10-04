@@ -1,5 +1,4 @@
-import Header from './components/header'
-import Menu from './components/menu'
+import Splash from './pages/splash'
 
 function App() {
 
