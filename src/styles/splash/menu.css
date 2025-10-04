@@ -1,0 +1,12 @@
+.SplashMenu {
+    height: 100%;
+    width: 50%;
+    border-radius: 50% 0% 50% 0%;
+}
+
+.PicOfMe {
+    min-width: 300px;
+    min-height: 300px;
+
+    border-radius: 50%;
+}
