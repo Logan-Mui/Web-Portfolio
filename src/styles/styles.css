@@ -4,7 +4,8 @@ body {
   font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: normal;
-  overflow-y: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none;
 }
 
 body a{
