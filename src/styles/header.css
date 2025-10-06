@@ -27,8 +27,9 @@
 }
 
 .Header #Home a {
-    width: 3vw;
-    height: 3vw;
-    font-size: 3vw;
+    width: auto;
+    height: auto;
+    font-size: xx-large;
     text-align: center;
+    padding: 1.25% 5%;
 }
