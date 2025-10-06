@@ -4,11 +4,7 @@
 }
 
 .Header {
-    display: flex;
-
     height: 10%;
 
     width: 100%;
-
-    background-color: lightgray;
 }

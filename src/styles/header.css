@@ -1,8 +1,14 @@
+.Header {
+    display: flex;
+    flex-direction: row;
 
+    background-color: lightgray;
+}
 
 .Header #Links {
     width:50%;
-    justify-content: center;
+    justify-content: right;
+    align-items: center;
 }
 
 .Header #Links img{
@@ -14,6 +20,7 @@
 .Header #Home {
     height:100%;
     width:50%;
+    justify-content: center;
 }
 
 .Header #Home a {
