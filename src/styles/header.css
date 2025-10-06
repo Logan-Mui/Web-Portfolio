@@ -5,8 +5,8 @@
 }
 
 .Header #Links img{
-    width:20px;
-    height:20px;
+    width: 2em;
+    height: 2em;
 }
 
 .Header #Home {
@@ -14,3 +14,8 @@
     width:50%;
 }
 
+.Header #Home a {
+    width: 2em;
+    height: 2em;
+    font-size: 2em;
+}
