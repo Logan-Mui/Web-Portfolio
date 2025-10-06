@@ -7,6 +7,7 @@
 
 .Header #Links {
     width:50%;
+    display:flex;
     justify-content: right;
     align-items: center;
 }
@@ -20,7 +21,9 @@
 .Header #Home {
     height:100%;
     width:50%;
-    justify-content: center;
+    display:flex;
+    justify-content: left;
+    align-items: center;
 }
 
 .Header #Home a {
