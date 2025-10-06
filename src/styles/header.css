@@ -2,11 +2,13 @@
 
 .Header #Links {
     width:50%;
+    justify-content: center;
 }
 
 .Header #Links img{
     width: 2em;
     height: 2em;
+    padding: 0.5em 0.5em;
 }
 
 .Header #Home {
