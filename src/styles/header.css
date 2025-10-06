@@ -27,7 +27,8 @@
 }
 
 .Header #Home a {
-    width: 2em;
-    height: 2em;
-    font-size: 2em;
+    width: 3vw;
+    height: 3vw;
+    font-size: 3vw;
+    text-align: center;
 }
