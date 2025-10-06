@@ -29,13 +29,13 @@
 .Header #Home a {
     width: auto;
     height: auto;
-    font-size: x-large;
+    font-size: 250%;
     text-align: center;
     padding: 1.25% 5%;
-    transition: all 100ms;
+    transition: all 75ms;
 }
 
 .Header #Home a:hover {
-    font-size: xx-large;
-    transition: all 100ms;
+    font-size: 300%;
+    transition: all 75ms;
 }
