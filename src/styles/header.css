@@ -35,7 +35,7 @@
 
 .Header #Links {
     width:30%;
-    padding:20% 0% 0% 0%;
+    padding:0% 0% 0% 16%;
     display:flex;
     justify-content: right;
     align-items: center;
