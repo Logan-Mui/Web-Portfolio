@@ -7,9 +7,10 @@
 }
 
 .MenuLinks a {
-    width: 75%;
+    width: 100%;
     height: 20%;
-    font-size: 80%;
+    font-size: 5em;
+    padding: 15px 0px 0px 0.5em;
 }
 
 .PicOfMe {
