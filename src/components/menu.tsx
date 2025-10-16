@@ -1,15 +1,22 @@
 import { useState, useEffect, type JSX } from 'react';
+
 import headshot from "../assets/photos/headshot.jpg";
 import singing from "../assets/photos/singing.jpg";
 import career_fair from "../assets/photos/career_fair.jpg";
 import bear from "../assets/photos/bear.jpg";
+
 import "../styles/splash/menu.css";
 
 function Menu(): JSX.Element {
-  const images: string[] = [headshot, singing, career_fair, bear];
+  // For now, just use pork multiple times to test the rotation
+  // Replace with your actual images once they're imported
+  const images: string[] = [headshot,singing,career_fair,bear]; // Add more images here: [pork, image2, image3, image4]
   const [currentImageIndex, setCurrentImageIndex] = useState<number>(0);
 
   useEffect(() => {
+    // Only run interval if we have multiple images
+    if (images.length <= 1) return;
+
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex: number) => 
         (prevIndex + 1) % images.length
