@@ -6,7 +6,7 @@ import bear from "../assets/photos/bear.jpg";
 import "../styles/splash/menu.css";
 
 function Menu(): JSX.Element {
-  const images: string[] = [headshot, singing career_fair, bear];
+  const images: string[] = [headshot, singing, career_fair, bear];
   const [currentImageIndex, setCurrentImageIndex] = useState<number>(0);
 
   useEffect(() => {
