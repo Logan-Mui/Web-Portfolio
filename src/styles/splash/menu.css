@@ -28,10 +28,19 @@
     line-height: 1.1;
     margin: 0.1em 0;
     text-transform: uppercase;
+    transition: all 0.3s ease;
 }
 
-.MenuLinks a:hover {
-    opacity: 0.7;
+/* When hovering over the menu container, shrink all links */
+.MenuLinks:hover a {
+    font-size: clamp(2.5rem, 6vw, 6rem);
+    opacity: 0.5;
+}
+
+/* When hovering over a specific link, make it grow */
+.MenuLinks:hover a:hover {
+    font-size: clamp(3.5rem, 8vw, 8rem);
+    opacity: 1;
 }
 
 .PicOfMe {
@@ -61,19 +70,27 @@
     .Menu {
         flex-direction: column;
         justify-content: space-evenly;
-        padding: 3rem 0;
+        padding: 2rem 0;
     }
 
     .MenuLinks {
         padding-left: 0;
         align-items: center;
         position: relative;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 
     .MenuLinks a {
-        font-size: clamp(2.5rem, 9vw, 5rem);
+        font-size: clamp(2rem, 8vw, 4rem);
         text-align: center;
+    }
+
+    .MenuLinks:hover a {
+        font-size: clamp(1.8rem, 7vw, 3.5rem);
+    }
+
+    .MenuLinks:hover a:hover {
+        font-size: clamp(2.5rem, 9vw, 5rem);
     }
 
     .PicOfMe {
@@ -81,19 +98,35 @@
         right: auto;
         top: auto;
         transform: none;
-        width: clamp(300px, 60vw, 500px);
-        height: clamp(300px, 60vw, 500px);
+        width: clamp(250px, 50vw, 400px);
+        height: clamp(250px, 50vw, 400px);
     }
 }
 
 /* For smaller screens */
 @media (max-width: 768px) {
+    .Menu {
+        padding: 1.5rem 0;
+    }
+
+    .MenuLinks {
+        margin-bottom: 1.5rem;
+    }
+
     .MenuLinks a {
-        font-size: clamp(2rem, 10vw, 3.5rem);
+        font-size: clamp(1.8rem, 9vw, 3rem);
+    }
+
+    .MenuLinks:hover a {
+        font-size: clamp(1.6rem, 8vw, 2.7rem);
+    }
+
+    .MenuLinks:hover a:hover {
+        font-size: clamp(2.2rem, 10vw, 3.8rem);
     }
 
     .PicOfMe {
-        width: clamp(250px, 70vw, 400px);
-        height: clamp(250px, 70vw, 400px);
+        width: clamp(200px, 55vw, 320px);
+        height: clamp(200px, 55vw, 320px);
     }
 }
