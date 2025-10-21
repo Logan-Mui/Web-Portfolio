@@ -8,7 +8,7 @@
     padding-left: 4.8rem;
     width: max-content;
     transform: translateX(-50%);
-    animation: marquee-move-text 10s linear infinite;
+    animation: marquee-move-text 5s linear infinite;
 }
 
 .marquee-text p {
