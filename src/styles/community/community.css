@@ -16,6 +16,6 @@
 
 @keyframes marquee-move-text {
     to {
-        transform: translate(-50%);
+        transform: translateX(-50%);
     }
 }
