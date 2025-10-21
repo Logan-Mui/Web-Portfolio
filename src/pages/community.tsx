@@ -11,18 +11,14 @@ function community() {
           <p>Community</p>
           <p>Community</p>
           <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
           <p>End</p>
+          <p aria-hidden="true">Start</p>
+          <p aria-hidden="true">Community</p>
+          <p aria-hidden="true">Community</p>
+          <p aria-hidden="true">Community</p>
+          <p aria-hidden="true">Community</p>
+          <p aria-hidden="true">Community</p>
+          <p aria-hidden="true">End</p>
         </div>
       </div>
     </div>
