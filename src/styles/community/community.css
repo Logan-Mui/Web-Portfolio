@@ -7,8 +7,7 @@
     gap: 4.8rem;
     padding-left: 4.8rem;
     width: max-content;
-    transform: translateX(-50%);
-    animation: marquee-move-text 5s linear infinite;
+    animation: marquee-move-text 10s linear infinite;
 }
 
 .marquee-text p {
@@ -17,6 +16,6 @@
 
 @keyframes marquee-move-text {
     to {
-        transform: translate(-100%);
+        transform: translate(-50%);
     }
 }
