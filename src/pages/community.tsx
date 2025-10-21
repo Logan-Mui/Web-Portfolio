@@ -22,33 +22,6 @@ function community() {
           <p>Community</p>
           <p>Community</p>
           <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
-          <p>Community</p>
           <p>End</p>
         </div>
       </div>
