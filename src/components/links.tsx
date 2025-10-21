@@ -1,9 +1,8 @@
-import email from '../assets/links/email.svg';
-import linkedin from '../assets/links/linkedin.svg';
-import github from '../assets/links/github.svg'
+import email from '../../public/links/email.svg';
+import linkedin from '../../public/links/linkedin.svg';
+import github from '../../public/links/github.svg';
 
 function Links() {
-
   return (
     <div id="Links">
       <a href="https://www.linkedin.com/in/logan-mui/" target="_blank">

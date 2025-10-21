@@ -1,9 +1,9 @@
 import { useState, useEffect, type JSX } from 'react';
 
-import headshot from "../assets/photos/headshot.jpg";
-import singing from "../assets/photos/singing.jpg";
-import career_fair from "../assets/photos/career_fair.jpg";
-import bear from "../assets/photos/bear.jpg";
+import headshot from "../../public/photos/headshot.jpg";
+import singing from "../../public/photos/singing.jpg";
+import career_fair from "../../public/photos/career_fair.jpg";
+import bear from "../../public/photos/bear.jpg";
 
 import "../styles/splash/menu.css";
 
@@ -29,10 +29,10 @@ function Menu(): JSX.Element {
   return (
     <div className="Menu">
       <div className="MenuLinks">
-        <a href="">COMMUNITY</a>
-        <a href="">ABOUT ME</a>
-        <a href="">WORK/CV</a>
-        <a href="">PROJECTS</a>
+        <a href="#community">COMMUNITY</a>
+        <a href="#about-me">ABOUT ME</a>
+        <a href="#work-cv">WORK/CV</a>
+        <a href="#projects">PROJECTS</a>
       </div>
       <div className="PicOfMe">
         {images.map((img: string, index: number) => (
