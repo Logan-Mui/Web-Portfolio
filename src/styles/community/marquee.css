@@ -5,8 +5,6 @@
 
 .marquee-text-track {
     display: flex;
-    margin: 0;
-    margin-block: 0;
     padding-left: 4.8rem;
     width: max-content;
     animation: marquee-move-text var(--speed, 20s) linear infinite var(--direction, normal);
@@ -33,6 +31,8 @@
 
 .marquee-text p {
     padding: 0rem 2.5rem;
+    margin: 0;
+    margin-block: 0;
 }
 
 @keyframes marquee-move-text {
