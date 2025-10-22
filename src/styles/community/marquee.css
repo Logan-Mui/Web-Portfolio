@@ -7,7 +7,8 @@
     gap: 4.8rem;
     padding-left: 4.8rem;
     width: max-content;
-    animation: marquee-move-text var(--speed, 10s) linear infinite var(--direction, forwards);
+    animation: marquee-move-text var(--speed, 10s) linear infinite;
+    animation-direction: var(--direction, forwards);
 }
 
 .slow {
