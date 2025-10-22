@@ -7,15 +7,15 @@
     display: flex;
     padding-left: 4.8rem;
     width: max-content;
-    animation: marquee-move-text var(--speed, 20s) linear infinite var(--direction, normal);
+    animation: marquee-move-text var(--speed, 30s) linear infinite var(--direction, normal);
 }
 
 .slow {
-    --speed: 24s;
+    --speed: 35s;
 }
 
 .slower {
-    --speed: 27s;
+    --speed: 40s;
 }
 
 .backwards {
@@ -24,7 +24,7 @@
 
 .backwards-slow {
     --direction: reverse;
-    --speed: 24s;
+    --speed: 35s;
 }
 
 
