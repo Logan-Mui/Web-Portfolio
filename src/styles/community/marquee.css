@@ -1,11 +1,12 @@
 .marquee-text {
     overflow: clip;
-    font-size: clamp(3rem, 7vw, 7rem);
+    font-size: clamp(7rem);
 }
 
 .marquee-text-track {
     display: flex;
-    gap: 4.8rem;
+    margin: 0;
+    margin-block: 0;
     padding-left: 4.8rem;
     width: max-content;
     animation: marquee-move-text var(--speed, 20s) linear infinite var(--direction, normal);
@@ -31,7 +32,7 @@
 
 
 .marquee-text p {
-    padding: 0.2rem 2.5rem;
+    padding: 0rem 2.5rem;
 }
 
 @keyframes marquee-move-text {
