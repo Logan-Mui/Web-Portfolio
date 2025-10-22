@@ -1,5 +1,3 @@
-import "../styles/community/marquee.css";
-
 function marquee_collection() {
     return(
         <div className="marquee-text">

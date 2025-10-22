@@ -2,7 +2,7 @@
     overflow: clip;
 }
 
-div #communtiy{
+.marquee-text-track {
     display: flex;
     gap: 4.8rem;
     padding-left: 4.8rem;
