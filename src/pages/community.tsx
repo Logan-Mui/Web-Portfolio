@@ -1,15 +1,10 @@
 import "../styles/community/community.css";
-import Marquee from "../components/marquee";
+import Marquee_Collection from "../components/marquee";
 
 function community() {
   return (
     <div className="Page" id="community">
-      <Marquee></Marquee>
-      <Marquee></Marquee>
-      <Marquee></Marquee>
-      <Marquee></Marquee>
-      <Marquee></Marquee>
-      <Marquee></Marquee>
+      <Marquee_Collection/>
     </div>
   )
 }
