@@ -10,8 +10,7 @@ function marquee_collection() {
             <Marquee_Slow />
             <Marquee_Backwards_Slow />
         </div>
-
-    )
+    );
 }
 
 export function Marquee() {
