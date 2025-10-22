@@ -1,9 +1,9 @@
 .marquee-text {
     z-index:-1;
     overflow: hidden;
-    font-size: clamp(2rem, 6vw, 6rem);
-    line-height: 1.1;
-    height:1.2em;
+    font-size: clamp(4rem, 15vh, 20rem);
+    line-height: 1;
+    height:100%;
     display:flex;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
