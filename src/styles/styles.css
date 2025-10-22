@@ -6,6 +6,7 @@ html, body {
   font-style: normal;
   overflow-y: scroll;
   scrollbar-width: none;
+  scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
