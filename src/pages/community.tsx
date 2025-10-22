@@ -1,4 +1,5 @@
-import "../styles/community/community.css";
+import "../styles/community/marquee.css";
+
 import Marquee_Collection from "../components/marquee";
 
 function community() {
