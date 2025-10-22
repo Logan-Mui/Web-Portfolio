@@ -1,6 +1,10 @@
 .marquee-text {
-    overflow: clip;
-    font-size: clamp(3rem, 7vw, 7rem);
+    z-index:-1;
+    overflow: hidden;
+    font-size: clamp(2rem, 6vw, 6rem);
+    line-height: 1.1;
+    height:1.2em;
+    display:flex;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -39,6 +43,7 @@
     padding: 0rem 2.5rem;
     margin: 0;
     margin-block: 0;
+    line-height: inherit;
 }
 
 @keyframes marquee-move-text {
