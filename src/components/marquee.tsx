@@ -82,7 +82,7 @@ function Marquee_Slower() {
 
 function Marquee_Backwards() {
     return(
-        <div className="marquee-text-track">
+        <div className="marquee-text-track backwards">
             <p>Community</p>
             <p>Community</p>
             <p>Community</p>
@@ -105,7 +105,7 @@ function Marquee_Backwards() {
 
 function Marquee_Backwards_Slow() {
     return(
-        <div className="marquee-text-track">
+        <div className="marquee-text-track backwards-slow">
             <p>Community</p>
             <p>Community</p>
             <p>Community</p>
