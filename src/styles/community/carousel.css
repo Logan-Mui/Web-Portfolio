@@ -55,9 +55,12 @@
   text-decoration: none;
   color: #fff;
   padding: 1rem 2rem;
-  background: rgba(0,0,0,0.4); /* optional overlay behind text for readability */
-  border-radius: 8px;
+  background: rgba(0,0,0,0.2); /* optional overlay behind text for readability */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.slide-content h2 {
+  font-weight:lighter;
 }
 
 .slide-content a:hover {
