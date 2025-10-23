@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import "./VerticalCarousel.css"; // we'll style separately
+import "../styles/community/carousel.css"; // we'll style separately
 
 interface Slide {
   id: number;
