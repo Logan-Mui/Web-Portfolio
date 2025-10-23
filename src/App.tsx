@@ -8,11 +8,9 @@ function App() {
   return (
     <>
       <Header />
-      <div className="Pages">
-        <Splash />
-        <Community />
-        <AboutMe />
-      </div>
+      <Splash />
+      <Community />
+      <AboutMe />
     </>
   )
 }
