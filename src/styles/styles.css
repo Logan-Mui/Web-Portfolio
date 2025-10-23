@@ -26,15 +26,13 @@ a:visited {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   overscroll-behavior: contain;
-  height: 100vh;
-  height: 100dvh;
+  padding-top: 10vh;
+  height: 90vh;
+  height: 90dvh;
 }
 
 .Page {
-  height:90vh;
-  height:90dvh;
-  padding-top: 10vh;
-  padding-top: 10dvh;
+  height:100%;
   width:100%;
   flex:1;
   display: flex;
