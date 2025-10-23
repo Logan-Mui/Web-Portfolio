@@ -6,12 +6,12 @@ import AboutMe from './pages/about_me';
 function App() {
 
   return (
-    <>
+    <div className="Pages">
       <Header />
       <Splash />
       <Community />
       <AboutMe />
-    </>
+    </div>
   )
 }
 
