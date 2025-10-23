@@ -25,6 +25,9 @@ a:visited {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
+  overscroll-behavior: contain;
+  height: 100vh;
+  height: 100dvh;
 }
 
 .Page {
