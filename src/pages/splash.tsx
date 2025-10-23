@@ -1,4 +1,3 @@
-import Header from "../components/header";
 import Menu from "../components/menu";
 import "../styles/splash/splash.css";
 
