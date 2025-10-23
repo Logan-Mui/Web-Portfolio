@@ -1,0 +1,22 @@
+.community-content {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+}
+
+.community-widget {
+    display: flex;
+    z-index: 0;
+    background-color: lightgray;
+    width: 50%;
+    height: 80%;
+    border-radius: 30px;
+}
+
+.community-links {
+    display: flex;
+    z-index: 1;
+    background-color: darkgray;
+}
