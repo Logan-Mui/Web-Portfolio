@@ -9,7 +9,6 @@ function Home() {
     )
 }
 
-
 function Header() {
 
   return (
