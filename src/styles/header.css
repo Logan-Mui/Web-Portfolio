@@ -6,6 +6,7 @@
     height: 10vh;
     min-height: 50px;
     width: 100%;
+    z-index: 1000;
 }
 
 .Header #Links img{
