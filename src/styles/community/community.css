@@ -1,9 +1,23 @@
-.Page #community {
-    flex-wrap: wrap;
+.marquee-text {
+    z-index:-1;
+    overflow: hidden;
+    font-size: clamp(4rem, 15vh, 20rem);
+    line-height: 1;
+    height:100%;
+    display:flex;
+    position:relative;
+    flex-direction: column;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .community-content {
     display:flex;
+    position:relative;
     align-items:center;
     justify-content: center;
     height: 90%;
