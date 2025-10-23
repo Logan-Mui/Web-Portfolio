@@ -3,7 +3,7 @@ import VerticalCarousel from "../components/carousel";
 import photo1 from "../../public/photos/DSC03342.jpg";
 import photo2 from "../../public/photos/DSC03412.jpg";
 import photo3 from "../../public/photos/IMG_4868.jpg";
-import photo4 from "../../public/photos/IMG_4868.jpg";
+import photo4 from "../../public/photos/IMG_4889.jpg";
 import photo5 from "../../public/photos/DSC04002.jpg";
 import "../styles/community/community.css";
 import "../styles/community/marquee.css";

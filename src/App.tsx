@@ -1,11 +1,13 @@
 import Splash from './pages/splash'
 import Community from './pages/community';
+import About_Me from './pages/about_me';
 function App() {
 
   return (
     <>
-      <Splash></Splash>
-      <Community></Community>
+      <Splash />
+      <Community />
+      <About_Me />
     </>
   )
 }

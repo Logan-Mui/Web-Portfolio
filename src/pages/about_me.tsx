@@ -1,9 +1,8 @@
-function about_me() {
-
+function About_Me() {
   return (
     <div className="Page">
     </div>
   )
 }
 
-export default about_me;
+export default About_Me;
