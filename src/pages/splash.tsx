@@ -7,7 +7,6 @@ function Splash() {
   return (
     <div className="Page">
       <Menu></Menu>
-      <Header></Header>
     </div>
   )
 }

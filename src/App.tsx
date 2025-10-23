@@ -1,13 +1,16 @@
+import Header from './components/header';
 import Splash from './pages/splash'
 import Community from './pages/community';
-import About_Me from './pages/about_me';
+import AboutMe from './pages/about_me';
+
 function App() {
 
   return (
     <>
+      <Header />
       <Splash />
       <Community />
-      <About_Me />
+      <AboutMe />
     </>
   )
 }
