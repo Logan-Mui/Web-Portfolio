@@ -19,7 +19,7 @@ const slides = [
   )},
   {id: 2, content: (
     <div className="slide-content">
-      <img src={photo2} alt="Slide 1" />
+      <img src={photo2} alt="Slide 2" />
       <a href="https://refugeworldwide.com/" target="_blank" rel="noopener noreferrer">
         <h2>Refuge Worldwide</h2>
       </a>
@@ -27,7 +27,7 @@ const slides = [
   )},
   {id: 3, content: (
     <div className="slide-content">
-      <img src={photo3} alt="Slide 1" />
+      <img src={photo3} alt="Slide 3" />
       <a href="https://www.astrarium.games/" target="_blank" rel="noopener noreferrer">
         <h2>Astrarium Games</h2>
       </a>
@@ -35,7 +35,7 @@ const slides = [
   )},
   {id: 4, content: (
     <div className="slide-content">
-      <img src={photo4} alt="Slide 1" />
+      <img src={photo4} alt="Slide 4" />
       <a href="https://titipi.org/" target="_blank" rel="noopener noreferrer">
         <h2>TITIPI</h2>
       </a>
@@ -43,7 +43,7 @@ const slides = [
   )},
   {id: 5, content: (
     <div className="slide-content">
-      <img src={photo5} alt="Slide 1" />
+      <img src={photo5} alt="Slide 5" />
       <a href="https://www.rochesterartistcollaborative.com/" target="_blank" rel="noopener noreferrer">
         <h2>Rochester Artist Collaborative</h2>
       </a>
