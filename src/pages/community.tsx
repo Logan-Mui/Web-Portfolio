@@ -59,7 +59,7 @@ function community() {
       </div>
       <Marquee_Collection/>
     </div>
-  )
+  );
 }
 
 export default community;
