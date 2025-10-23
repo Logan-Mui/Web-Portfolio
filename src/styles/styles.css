@@ -5,6 +5,11 @@ html, body {
   font-style: normal;
   scrollbar-width: none;
   scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  overscroll-behavior: contain;
+  height: 100vh;
+  height: 100dvh;
 }
 
 body::-webkit-scrollbar {
@@ -19,16 +24,6 @@ a {
 
 a:visited {
   color:inherit;
-}
-
-.Pages {
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  overscroll-behavior: contain;
-  padding-top: 10vh;
-  height: 90vh;
-  height: 90dvh;
 }
 
 .Page {
