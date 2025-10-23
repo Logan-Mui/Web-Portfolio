@@ -53,7 +53,7 @@ const slides = [
 
 function community() {
   return (
-    <div className="Page" id="community">
+    <div className="Page" id="Community">
       <div className="community-content">
         <VerticalCarousel slides={slides} autoSlideInterval={5000} />
       </div>
