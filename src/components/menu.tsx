@@ -29,10 +29,10 @@ function Menu(): JSX.Element {
   return (
     <div className="Menu">
       <div className="MenuLinks">
-        <a href="#community">COMMUNITY</a>
-        <a href="#about-me">ABOUT ME</a>
-        <a href="#work-cv">WORK/CV</a>
-        <a href="#projects">PROJECTS</a>
+        <a href="#Community">COMMUNITY</a>
+        <a href="#AboutMe">ABOUT ME</a>
+        <a href="#WorkCv">WORK/CV</a>
+        <a href="#Projects">PROJECTS</a>
       </div>
       <div className="PicOfMe">
         {images.map((img: string, index: number) => (
