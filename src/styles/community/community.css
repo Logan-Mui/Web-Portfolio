@@ -1,5 +1,5 @@
 .marquee-text {
-    z-index:0;
+    z-index:-1;
     overflow: hidden;
     font-size: clamp(4rem, 15vh, 20rem);
     line-height: 1;
@@ -20,9 +20,8 @@
     position:relative;
     align-items:center;
     justify-content: center;
-    height: 90%;
+    height: 100%;
     width: 100%;
-    z-index:1;
 }
 
 .slider {

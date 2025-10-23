@@ -55,9 +55,9 @@ function community() {
   return (
     <div className="Page" id="Community">
       <div className="community-content">
-        <VerticalCarousel slides={slides} autoSlideInterval={5000} />
+        <VerticalCarousel slides={slides} autoSlideInterval={5000} />     
+        <Marquee_Collection /> 
       </div>
-      <Marquee_Collection/>
     </div>
   );
 }
