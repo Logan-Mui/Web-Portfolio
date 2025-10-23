@@ -5,7 +5,7 @@
     line-height: 1;
     height:100%;
     display:flex;
-    position:relative;
+    position:absolute;
     flex-direction: column;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
