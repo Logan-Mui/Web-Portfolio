@@ -4,7 +4,7 @@ import Links from "./links"
 function Home() {
     return (
     <div id="Home">
-        <a href="#splash">LM</a>
+        <a href="#Splash">LM</a>
     </div>
     )
 }
