@@ -24,8 +24,10 @@ a:visited {
 }
 
 .Page {
-  height:100vh;
-  height:100dvh;
+  height:90vh;
+  height:90dvh;
+  padding-top: 10vh;
+  padding-top: 10dvh;
   width:100%;
   flex:1;
   display: flex;
