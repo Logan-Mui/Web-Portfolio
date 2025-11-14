@@ -10,8 +10,8 @@ export default function Preview(image: string) {
         aria-label="Download preview"
       >
         <img
-          src="/preview_preview.png"
-          alt="preview preview"
+          src={image}
+          alt="preview"
           className="preview-image"
         />
         <div className="preview-overlay">
