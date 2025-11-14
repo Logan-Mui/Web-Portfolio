@@ -1,6 +1,10 @@
 import "../styles/work_cv/preview.css";
 
-export default function Preview(image: string) {
+interface PreviewProps {
+  image: string;
+}
+
+export default function Preview({ image }: PreviewProps) {
   return (
     <div className="preview-card">
       <a
