@@ -1,9 +1,10 @@
-function projects() {
+function Projects() {
 
   return (
     <div className="Page">
+      
     </div>
   )
 }
 
-export default projects;
+export default Projects;

@@ -1,0 +1,62 @@
+.preview-card {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.preview-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.25);
+}
+
+.preview-link {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+.preview-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: filter 0.4s ease;
+}
+
+.preview-card:hover .preview-image {
+  filter: brightness(70%);
+}
+
+.preview-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  background: rgba(0,0,0,0.3);
+}
+
+.preview-card:hover .preview-overlay {
+  opacity: 1;
+}
+
+.preview-text {
+  background: rgba(255,255,255,0.85);
+  color: #000;
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: transform 0.3s ease;
+}
+
+.preview-card:hover .preview-text {
+  transform: scale(1.05);
+}
