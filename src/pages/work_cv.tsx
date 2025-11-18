@@ -7,8 +7,8 @@ function WorkCv() {
   return (
     <div className="Page" id="WorkCv">
       <div className="previewBox">
-        <Preview image={resume} description="resume"/>
-        <Preview image={cv} description="cv"/>
+        <Preview image="/links/logan_mui_resume.pdf" description="resume"/>
+        <Preview image="/links/logan_mui_cv.pdf" description="cv"/>
       </div>
     </div>
   );
