@@ -2,10 +2,9 @@ import "../styles/work_cv/preview.css";
 import { Document, Page } from 'react-pdf';
 interface PreviewProps {
   image: string;
-  description: string;
 }
 
-export default function Preview({ image, description }: PreviewProps) {
+export default function Preview({ image }: PreviewProps) {
   return (
     <div className="preview-card">
       <a
