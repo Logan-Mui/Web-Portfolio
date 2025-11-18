@@ -1,7 +1,5 @@
 import Preview from "../components/preview";
 import "../styles/work_cv/preview.css";
-import resume from "../../public/links/logan_mui_resume.pdf";
-import cv from "../../public/links/logan_mui_cv.pdf";
 
 function WorkCv() {
   return (
