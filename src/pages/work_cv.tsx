@@ -9,7 +9,7 @@ function WorkCv() {
         <Preview image="./links/logan_mui_cv.pdf"/>
       </div>
     </div>
-  )
+  );
 }
 
 export default WorkCv;

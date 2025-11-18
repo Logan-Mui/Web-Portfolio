@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "../styles/work_cv/preview.css";
-import Page from "react-pdf/src/Page.js";
-import { Document } from "react-pdf";
+import { Document, Page } from "react-pdf";
 
 interface PreviewProps {
   image: string;
