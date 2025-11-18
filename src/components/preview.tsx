@@ -1,5 +1,5 @@
 import "../styles/work_cv/preview.css";
-
+import { Document, Page } from 'react-pdf';
 interface PreviewProps {
   image: string;
   description: string;
@@ -15,7 +15,9 @@ export default function Preview({ image, description }: PreviewProps) {
         aria-label="Download preview"
       >
       <div className="preview-pdf">
-        <img alt={description} src={image}/>
+        <Document file={image}>
+          <Page pageNumber={1}/>
+        </Document>
       </div>
         <div className="preview-overlay">
           <p className="preview-text">Download PDF</p>
