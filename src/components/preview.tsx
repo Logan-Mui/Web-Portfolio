@@ -15,7 +15,7 @@ export default function Preview({ image, description }: PreviewProps) {
         aria-label="Download preview"
       >
       <div className="preview-pdf">
-        <img alt={description} src={image}/>
+        <img alt={description} src={require(image)}/>
       </div>
         <div className="preview-overlay">
           <p className="preview-text">Download PDF</p>
