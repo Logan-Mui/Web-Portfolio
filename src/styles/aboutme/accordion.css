@@ -1,0 +1,118 @@
+/***********************************************
+ * BASE ACCORDION ITEM
+ ***********************************************/
+.accordion-item {
+  width: 100%;
+  max-width: 42rem;
+  margin: 1rem 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+  overflow: hidden; /* helps animation */
+  transition: border-color 0.3s ease;
+}
+
+.accordion-item.open {
+  border-color: #bbb;
+}
+
+/***********************************************
+ * HEADER / BUTTON
+ ***********************************************/
+.accordion-header {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 0.5rem 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  align-items: top; /* larger touch zone */
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.25s ease, background-color 0.2s ease;
+}
+
+.accordion-header:hover {
+  color: #444;
+}
+
+.accordion-item.open .accordion-header {
+  color: #000;
+}
+
+/***********************************************
+ * ARROW ICON
+ ***********************************************/
+.accordion-arrow {
+  font-size: 1.25rem;
+  transition: transform 0.35s ease;
+}
+
+.accordion-item.open .accordion-arrow {
+  transform: rotate(180deg);
+}
+
+/***********************************************
+ * SMOOTH EXPAND / COLLAPSE ANIMATION
+ * Includes fade + slide
+ ***********************************************/
+.accordion-content-wrapper {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition:
+    max-height 0.4s ease,
+    opacity 0.3s ease;
+}
+
+.accordion-item.open .accordion-content-wrapper {
+  max-height: 500px; /* adjust depending on content */
+  opacity: 1;
+}
+
+/***********************************************
+ * CONTENT BLOCK
+ ***********************************************/
+.accordion-content {
+  padding: 0.75rem 0;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #333;
+  animation: fadeSlideIn 0.35s ease forwards;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/***********************************************
+ * MOBILE RESPONSIVE TOUCH ENHANCEMENTS
+ ***********************************************/
+@media (max-width: 600px) {
+  /* Increase tap area */
+  .accordion-header {
+    padding: 1.3rem 0;
+    font-size: 1.25rem;
+  }
+
+  .accordion-arrow {
+    font-size: 1.4rem;
+  }
+
+  .accordion-content {
+    font-size: 1rem;
+    padding: 0.9rem 0;
+  }
+
+  .accordion-item {
+    margin: 0.8rem 0;
+  }
+}
