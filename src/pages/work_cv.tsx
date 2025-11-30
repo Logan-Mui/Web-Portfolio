@@ -23,13 +23,15 @@ function WorkCv() {
 
   return (
     <div className="Page" id="WorkCv">
-      <div className="preview-buttons">
-        <button className="preview-button" onClick={handleCV}>CV</button>
-        <button className="preview-button" onClick={handleResume}>Resume</button>
-      </div>
       <div className="preview-box">
-        { resume && <Preview image="/photos/logan_mui_resume.pdf"/> }
-        { cv && <Preview image="/photos/logan_mui_cv.pdf"/> }
+        <div className="preview-buttons">
+          <button className="preview-button" onClick={handleCV}>CV</button>
+          <button className="preview-button" onClick={handleResume}>Resume</button>
+        </div>
+        <div className="preview-container">
+          { resume && <Preview image="/photos/logan_mui_resume.pdf"/> }
+          { cv && <Preview image="/photos/logan_mui_cv.pdf"/> }
+        </div>
       </div>
     </div>
   );

@@ -1,34 +1,36 @@
-.preview-box {
-  height:100%;
-  width:100%;
-  display:flex;
-  flex-direction: row;
-}
-
 .preview-card {
   position: relative;
   width: 50%;
-  max-width: 600px;
+  max-width: 900px;
   margin: auto;
   border-radius: 16px;
-  overflow: hidden;
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+
+  /* DO NOT CLIP the PDF! */
+  overflow: visible;
+
+  background: #f9f9f9;
 }
 
-.preview-link {
-  display: block;
-  position: relative;
-  text-decoration: none;
-  color: inherit;
-}
-
-.preview-image {
+.preview-inner {
   width: 100%;
-  height: auto;
-  display: block;
-  transition: filter 0.4s ease;
+  height: 80vh;
+
+  overflow: auto;           /* scroll if needed */
+  padding: 10px;
+
+  border-radius: 16px;       /* keep rounded corners */
 }
 
+/* 🖨️ PDF Canvas Scaling Fix (the important part) */
+.preview-inner canvas {
+  width: 100% !important;     /* force shrink-to-fit */
+  height: auto !important;
+  display: block;
+  margin: auto;
+}
+
+/* Keep your overlay styles unchanged */
 .preview-overlay {
   position: absolute;
   inset: 0;
@@ -37,6 +39,10 @@
   align-items: center;
   opacity: 0;
   background: rgba(0,0,0,0.3);
+}
+
+.preview-card:hover .preview-overlay {
+  opacity: 1;
 }
 
 .preview-text {
@@ -51,4 +57,14 @@
 
 .preview-card:hover .preview-text {
   transform: scale(1.05);
+}
+
+/* Optional: mobile-friendly */
+@media (max-width: 700px) {
+  .preview-card {
+    width: 90%;
+  }
+  .preview-inner {
+    height: 65vh;
+  }
 }

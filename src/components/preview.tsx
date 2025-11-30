@@ -10,14 +10,14 @@ interface PreviewProps {
 export default function Preview({ image }: PreviewProps) {
   return (
     <div className="preview-card">
-      <div className="preview-pdf">
+      <div className="preview-inner">
         <Document file={image}>
           <Page pageNumber={1} renderTextLayer={false} renderAnnotationLayer={false}/>
         </Document>
       </div>
-        <div className="preview-overlay">
+        <a className="preview-overlay" href={image} download>
           <p className="preview-text">Download PDF</p>
-        </div>
+        </a>
     </div>
   );
 }
