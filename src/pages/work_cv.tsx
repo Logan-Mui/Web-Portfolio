@@ -1,5 +1,6 @@
 import Preview from "../components/preview";
 import "../styles/work_cv/preview.css";
+import "../styles/work_cv/workcv.css";
 import { useState } from 'react';
 
 
@@ -11,26 +12,24 @@ function WorkCv() {
   const [cv, setCV] = useState(false);
 
   function handleResume() {
-  setResume(!resume);
-    if(!resume && cv) {
-      setCV(!cv);
-    }
+    setResume(true);
+    setCV(false);
   }
 
   function handleCV() {
-    setCV(!cv);
-    if(!cv && resume) {
-      setResume(!resume);
-    }
+    setCV(true);
+    setResume(false);
   }
 
   return (
     <div className="Page" id="WorkCv">
+      <div className="preview-buttons">
+        <button className="preview-button" onClick={handleCV}>CV</button>
+        <button className="preview-button" onClick={handleResume}>Resume</button>
+      </div>
       <div className="preview-box">
-        <button onClick={handleCV}>CV</button>
-        <button onClick={handleResume}>Resume</button>
-        <Preview image="/photos/logan_mui_resume.pdf"/>
-        <Preview image="/photos/logan_mui_cv.pdf"/>
+        { resume && <Preview image="/photos/logan_mui_resume.pdf"/> }
+        { cv && <Preview image="/photos/logan_mui_cv.pdf"/> }
       </div>
     </div>
   );
