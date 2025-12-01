@@ -1,77 +1,93 @@
-/* Content layout inside .Page */
+/* Content inside .Page */
 .about-content {
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto; /* center inside .Page */
+    max-width: 1300px;
+    margin: 0 auto;
     display: flex;
-    align-items: center;       /* vertical center for accordion */
-    gap: 40px;
-    padding: 0 20px;           /* prevent edge clipping */
+    align-items: center;
+    gap: 80px; /* bigger spacing between title + accordion */
+    padding: 0 40px;
     box-sizing: border-box;
 }
 
-/* Title */
+/* Larger, bolder page title */
 .about-title {
-    font-size: 48px;
+    font-size: clamp(3rem, 4vw, 5rem); /* grows on large screens */
     font-weight: 700;
     margin: 0;
-    flex-shrink: 0;            /* prevent squashing */
+    line-height: 1.1;
+    flex-shrink: 0;
 }
 
-/* Accordion wrapper */
+/* Make accordion bigger */
 .about-accordion {
     flex: 1;
-    max-width: 500px;
+    max-width: 600px; /* gives it more presence */
 }
 
-/* Accordion item */
+/* Accordion items */
 .accordion-item {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 
 .accordion-button {
     width: 100%;
     text-align: left;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
-    padding: 16px 20px;
+    padding: 18px 22px;
     background: #ffffff;
-    border-radius: 16px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    border-radius: 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.16);
     cursor: pointer;
-    transition: background 0.2s ease;
+    transition: background 0.15s ease;
 }
 
 .accordion-button:hover {
-    background: #f3f3f3;
+    background: #f4f4f4;
 }
 
 .accordion-content {
     margin-top: 10px;
-    padding: 16px;
+    padding: 20px;
     background: #ffffff;
     border-radius: 16px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
-    font-size: 16px;
-    line-height: 1.5;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.16);
+    font-size: 17px;
+    line-height: 1.55;
 }
 
-/* MOBILE LAYOUT */
+
+/* ============================== */
+/*           MOBILE VIEW          */
+/* ============================== */
+
 @media (max-width: 900px) {
+
     .about-content {
         flex-direction: column;
         align-items: flex-start;
-        gap: 20px;
-        text-align: left;
+        padding-top: 40px; /* push title down from header */
     }
 
     .about-title {
-        font-size: 36px;
+        font-size: 2.5rem;
+        margin-bottom: 10px; /* spacing before accordion */
     }
 
     .about-accordion {
         width: 100%;
         max-width: none;
+    }
+
+    .accordion-button {
+        font-size: 20px;
+        padding: 16px 18px;
+    }
+
+    .accordion-content {
+        font-size: 16px;
+        padding: 18px;
     }
 }
