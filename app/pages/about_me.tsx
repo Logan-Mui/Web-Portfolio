@@ -1,4 +1,4 @@
-import {AccordionItem, Accordion} from "../components/accordion.tsx";
+import {AccordionItem, Accordion} from "../components/accordion.js";
 import "../styles/aboutme/aboutme.css";
 
 function AboutMe() {
