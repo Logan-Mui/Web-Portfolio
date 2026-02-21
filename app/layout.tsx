@@ -1,4 +1,4 @@
-import Header from './components/header';
+import Header from './_components/header';
 import dynamic from 'next/dynamic';
 
 export default function RootLayout({

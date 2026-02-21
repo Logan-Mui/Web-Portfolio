@@ -1,4 +1,4 @@
-import Menu from "../components/menu";
+import Menu from "../_components/menu";
 import "../styles/splash/splash.css";
 
 function Splash() {

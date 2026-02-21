@@ -1,7 +1,7 @@
 "use client";
 
-import Marquee_Collection from "../components/marquee";
-import VerticalCarousel from "../components/carousel";
+import Marquee_Collection from "../_components/marquee";
+import VerticalCarousel from "../_components/carousel";
 import photo1 from "../../public/photos/DSC03342.jpg";
 import photo2 from "../../public/photos/DSC03412.jpg";
 import photo3 from "../../public/photos/IMG_4868.jpg";

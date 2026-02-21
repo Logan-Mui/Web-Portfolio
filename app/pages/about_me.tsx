@@ -1,4 +1,4 @@
-import {AccordionItem, Accordion} from "../components/accordion";
+import {AccordionItem, Accordion} from "../_components/accordion";
 import "../styles/aboutme/aboutme.css";
 //update
 

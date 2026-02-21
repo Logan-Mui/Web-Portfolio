@@ -1,4 +1,4 @@
-import Preview from "../components/preview";
+import Preview from "../_components/preview";
 import "../styles/work_cv/preview.css";
 import "../styles/work_cv/workcv.css";
 import { useState } from 'react';
