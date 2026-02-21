@@ -31,7 +31,7 @@ export function Marquee() {
             <p aria-hidden="true">Community</p>
             <p aria-hidden="true">Community</p>
         </div>
-    )
+    );
 }
 
 function Marquee_Slow() {
@@ -54,7 +54,7 @@ function Marquee_Slow() {
             <p aria-hidden="true">Community</p>
             <p aria-hidden="true">Community</p>
         </div>
-    )
+    );
 }
 
 function Marquee_Slower() {
@@ -77,7 +77,7 @@ function Marquee_Slower() {
             <p aria-hidden="true">Community</p>
             <p aria-hidden="true">Community</p>
         </div>
-    )
+    );
 }
 
 function Marquee_Backwards() {
@@ -100,7 +100,7 @@ function Marquee_Backwards() {
             <p aria-hidden="true">Community</p>
             <p aria-hidden="true">Community</p>
         </div>
-    )
+    );
 }
 
 function Marquee_Backwards_Slow() {
@@ -123,7 +123,7 @@ function Marquee_Backwards_Slow() {
             <p aria-hidden="true">Community</p>
             <p aria-hidden="true">Community</p>
         </div>
-    )
+    );
 }
 
 export default marquee_collection;
