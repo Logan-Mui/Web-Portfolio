@@ -1,12 +1,13 @@
 import Header from './components/header';
-import Splash from './pages/splash'
-import Community from './pages/community';
-import AboutMe from './pages/about_me';
-import WorkCv from './pages/work_cv';
-import Projects from './pages/projects';
+import dynamic from 'next/dynamic';
+
+const Splash = dynamic(() => import('./@pages/splash'), {ssr: false});
+const AboutMe = dynamic(() => import('./@pages/about_me'), {ssr: false});
+const Community = dynamic(() => import('./@pages/community'), { ssr: false });
+const WorkCv = dynamic(() => import('./@pages/work_cv'), { ssr: false });
+const Projects = dynamic(() => import('./@pages/projects'), { ssr: false });
 
 function App() {
-
   return (
     <>
       <Header />
