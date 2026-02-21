@@ -1,5 +1,6 @@
 import {AccordionItem, Accordion} from "../components/accordion.js";
 import "../styles/aboutme/aboutme.css";
+//update
 
 function AboutMe() {
   return (
