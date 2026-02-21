@@ -4,13 +4,14 @@ import headshot from "../../public/photos/headshot.jpg";
 import singing from "../../public/photos/singing.jpg";
 import career_fair from "../../public/photos/career_fair.jpg";
 import bear from "../../public/photos/bear.jpg";
-
+import { StaticImageData } from 'next/image';
 import "../styles/splash/menu.css";
+
 
 function Menu(): JSX.Element {
   // For now, just use pork multiple times to test the rotation
   // Replace with your actual images once they're imported
-  const images: string[] = [headshot,singing,career_fair,bear]; // Add more images here: [pork, image2, image3, image4]
+  const images: (string | StaticImageData)[] = [headshot,singing,career_fair,bear]; // Add more images here: [pork, image2, image3, image4]
   const [currentImageIndex, setCurrentImageIndex] = useState<number>(0);
 
   useEffect(() => {
@@ -35,10 +36,10 @@ function Menu(): JSX.Element {
         <a href="#Projects">PROJECTS</a>
       </div>
       <div className="PicOfMe">
-        {images.map((img: string, index: number) => (
+        {images.map((img: string | StaticImageData, index: number) => (
           <img 
             key={index}
-            src={img} 
+            src={typeof img === 'string' ? img : img.src} 
             alt={`Slide ${index + 1}`}
             className={index === currentImageIndex ? 'active' : ''}
           />
